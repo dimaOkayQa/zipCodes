@@ -12,10 +12,9 @@ dependencies{
 
     testImplementation "org.junit.jupiter:junit-jupiter-api:5.6.2"
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.6.2"
-    // https://mvnrepository.com/artifact/org.apache.poi/poi
     implementation group: 'org.apache.poi', name: 'poi', version: '3.9'
-    // https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
     implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '3.9'
+    implementation "io.rest-assured:rest-assured:4.3.1"
 
 }
 
